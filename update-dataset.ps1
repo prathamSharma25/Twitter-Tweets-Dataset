@@ -1,9 +1,10 @@
 Write-Host Running PowerShell script to update tweets dataset . . .
 
 # Get day of week; do not run if day of week is not Wednesday
+$updateDay = "Wednesday"
 $dayOfWeek = (Get-Date).DayOfWeek
-if($dayOfWeek -ne "Wednesday"){
-	Write-Host Today is $dayOfWeek. Dataset can only be updated on Wednesdays.
+if($dayOfWeek -ne $updateDay){
+	Write-Host Today is $dayOfWeek. Dataset can only be updated on $updateDay.
 	Write-Host Exiting . . .
 }else{
 	# Get date in variable for week number
