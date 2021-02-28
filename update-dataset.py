@@ -18,12 +18,13 @@ args = list(sys.argv)
 directory = args[1]
 file_suffix = args[2]
 # Set file names
-raw_tweets_file = directory + "/farmers-protest-tweets-2021-" + file_suffix + ".json"
+raw_tweets_file = directory + "/raw-tweets-2021-" + file_suffix + ".json"
 tweets_file = directory + "/tweets-2021-" + file_suffix + ".csv"
 users_file = directory + "/users-2021-" + file_suffix + ".csv"
 
 # Run snscrape in CLI to get tweets
-cmd = "snscrape --progress --jsonl twitter-search \"#FarmersProtest\" > " + raw_tweets_file
+search_term = ""
+cmd = "snscrape --progress --jsonl twitter-search \"" + search_term + "\" > " + raw_tweets_file
 os.system(cmd)
     
 # read JSON file containing tweets data and remove tweets not in English
