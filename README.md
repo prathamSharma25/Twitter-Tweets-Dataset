@@ -7,7 +7,7 @@ The Python script in this repository scrapes tweets using snscrape and performs 
 
 The PowerShell script is used to run the Python script weekly and create the appropriate directory and save the CSV files crated by the Python script. To configure the PowerShell script to run only on a particular day per week, set the value of the variable _"$updateDay"_ to the day of your choice (currently set to _"Wednesday"_).
 
-A sample tweets dataset is available on Kaggle. This dataset consist of tweets containing the hashtag #FarmersProtest, related to the ongoing farmers' protests in India. Check out the #FarmersProtest Tweets Dataset [here](https://www.kaggle.com/prathamsharma123/farmers-protest-tweets-dataset-csv).
+A sample tweets dataset is available on Kaggle. This dataset consist of tweets containing the hashtag #FarmersProtest, related to the ongoing farmers' protests in India. Check out the [#FarmersProtest Tweets Dataset on Kaggle](https://www.kaggle.com/prathamsharma123/farmers-protest-tweets-dataset-csv).
 
 ---
 
