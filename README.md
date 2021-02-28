@@ -5,4 +5,16 @@ snscrape is a Python library thast lets you scrape tweets through Twitter's API 
 
 The Python script in this repository scrapes tweets using snscrape and performs transformations on the raw JSON file to convert it into 2 CSV files for easier use. The PowerShell script is used to run the Python script weekly and create the appropriate directory and save the CSV files crated by the Python script. To configure the PowerShell script to run only on a particular day per week, set the value of the variable "$updateDay" to the day of your choice (currently set to "Wednesday").
 
-A sample tweets dataset is available on Kaggle. This dataset consist of tweets containing the hashtag #FarmersProtest, related to the ongoing farmers' protests in India. Check out the #FarmersProtest Tweets Dataset here.
+A sample tweets dataset is available on Kaggle. This dataset consist of tweets containing the hashtag #FarmersProtest, related to the ongoing farmers' protests in India. Check out the #FarmersProtest Tweets Dataset [here](https://www.kaggle.com/prathamsharma123/farmers-protest-tweets-dataset-csv).
+
+---
+
+Pratham Sharma
+
+Student at Vellore Institute of Technology, Vellore, Tamil Nadu, India
+
+Reach out to me: prathams2425@gmail.com
+
+LinkedIn profile: https://www.linkedin.com/in/pratham-sharma-620418178/
+
+Kaggle profile: https://www.kaggle.com/prathamsharma123
