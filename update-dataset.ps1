@@ -11,7 +11,7 @@ if($dayOfWeek -ne $updateDay){
 	$fullDate = Get-Date
 	Write-Host Date: $fullDate
 	$currentDate = Get-Date -UFormat %d
-	$weekNumber = $currentDate/7
+	$weekNumber = $currentDate/7 + 1
 	
 	# Get month name in variable
 	$monthNumber = Get-Date -UFormat %m
